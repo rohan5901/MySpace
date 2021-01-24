@@ -1,0 +1,100 @@
+
+.first h1{
+    color: blue;
+}
+.first h3{
+    color: greenyellow;
+}
+.first h4{
+    color: grey;
+}
+.first{
+    padding: 50px;
+}
+
+.collapse ul { 
+    display: flex;
+    list-style-type: none;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: darkblue;
+    padding: 10px;
+}
+
+.mini{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.third{
+    background-color: darkcyan;
+    padding: 20px;
+}
+.main{
+    display: flex;
+    padding: 50px;
+    color: white;
+}
+
+.one    {
+    color: rgba(7, 97, 4, 0.925);
+    background-color: sienna;
+    border-radius: 10px;
+    transform: translateY(25%);
+    height: 100px;
+    margin-right: 20px;
+    box-shadow: rgb(134, 59, 5) 10px 10px 10px;
+    padding: 20px;
+}
+
+.three{
+    color: steelblue;
+    background-color: violet;
+    width: 110;
+    transform: translateY(25%);
+    height: 100px;
+    margin-left: 20px;
+    padding: 20px;
+    box-shadow: rgb(224, 16, 179) 10px 10px 10px ;
+}
+
+.container  :hover{
+    transform: scale(0.95);
+    cursor: initial;
+}
+
+.container{
+    display: flex;
+}
+
+#hey{
+    border-radius: 10px;
+    padding: 20px;
+    background-color: red;
+    height: 100px;
+    transform: translateY(-25%);
+    box-shadow: rgb(4, 124, 24) 10px 10px 10px;
+    margin-bottom: 10px;
+}
+
+#bye{
+    border-radius: 10px;
+    padding: 20px;
+    background-color: royalblue;
+    height: 100px;
+    transform: translateY(-25%);
+    box-shadow: rgb(151, 93, 5) 10px 10px 10px;
+}
+
+.input_box, .password{
+    background-color: rgb(80, 43, 211);
+    border-radius: 10px;
+    color: rgb(223, 146, 30);
+    text-align: center;
+    text-shadow: white 1.0px 0.5px 0.5px;
+}
